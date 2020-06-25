@@ -1,0 +1,28 @@
+
+.label{
+    font-size: 15px;
+    font-weight: bold;
+font-family: cursive;
+color: seagreen;
+text-align: left;
+
+}
+
+.input{
+    padding: 1px;
+
+    /* border: none; */
+width: 50%;
+    font-size: 15px;
+    color: black;
+    /* background: rgba(0,0,0,0.7); */
+}
+
+.login_form{
+
+ width: 100%;
+ margin: auto 0;
+ background-color: white;
+  text-align: center;
+ 
+}

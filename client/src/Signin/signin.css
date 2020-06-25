@@ -1,0 +1,26 @@
+
+.input{
+    padding: 5px;
+
+    margin-top: 20px;
+width: 80%;
+    font-size: 15px;
+    color: black;
+    /* background: rgba(0,0,0,0.7); */
+}
+
+
+.login_form{
+ margin: 0 auto;
+ width: 25%;
+
+ background-color: white;
+  text-align: center;
+}
+
+.btn{
+    width: 80%;
+}
+.textinfo{
+    color: white;
+}
