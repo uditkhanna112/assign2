@@ -1,0 +1,262 @@
+﻿html {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0 auto;
+}
+.left-mid{
+    background-color:black;
+    height:500px;
+}
+.right-mid {
+    font-family: Arvo, serif;
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/pexels-anush-gorak-1229356.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height:500px
+}
+.btb {
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Special Elite',display;
+    color: white !important;
+    letter-spacing: -1px;
+    padding-top: 18px !important;
+}
+.vrs {
+    font-weight: 700;
+    font-size: 54px;
+    text-align: center;
+    font-family: 'Special Elite',display;
+    color: white !important;
+    letter-spacing: -1px;
+    padding-top:18px !important;
+}
+.vrs2 {
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Special Elite',display;
+    color: white !important;
+    letter-spacing: -1px;
+    padding-top: 18px !important;
+}
+
+.font-fam {
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    padding:2px;
+}
+.fixed {
+    position: fixed;
+}
+.body-heading {
+    font-weight: 600;
+    font-size: 74px;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    color: white !important;
+    letter-spacing: -1px;
+}
+.card-custom {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    color: #486066 !important;
+    line-height: 1.6em;
+    background-color: #ffffff;
+    border-radius: 6px 6px 6px 6px;
+    overflow: hidden;
+    padding-top: 40px !important;
+    padding-right: 30px !important;
+    padding-bottom: 40px !important;
+    padding-left: 30px !important;
+    box-shadow: 6px 6px 18px 7px rgb(0 0 0 / 21%);
+    background-color: #ffffff;
+    border-radius: 6px 6px 6px 6px;
+}
+
+@media (max-width: 479px) {
+    .card-custom {
+        width: 100% !important;
+    }
+}
+@media (max-width: 980px) {
+    .card-custom{
+        margin-bottom:30px;
+   }
+}
+.ser-heading {
+    font-weight: 600;
+    font-size: 34px;
+    font-family: 'Special Elite',display;
+    color: black !important;
+    letter-spacing: -1px;
+}
+
+.sec-services {
+    padding-top: 110px;
+    padding-right: 0px;
+    padding-bottom: 110px;
+    padding-left: 0px;
+    background-color: rgba(242,242,242,0.66) !important;
+    position: relative;
+    background-position: 50%;
+    background-size: cover;
+
+}
+
+
+
+.nav-head {
+    margin-right: 30px;
+    float: right;
+    color: black;
+    font-weight: 600;
+    font-family: 'Oswald', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.head {
+    padding-left: 0;
+    text-align: left;
+    margin-left: 0;
+    padding: 10px;
+}
+
+.head-container {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row;
+    width: 80%;
+    max-width: none;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.head-container2{
+
+}
+
+.inner-head-container {
+    align-self: center;
+    width: 100%;
+    text-align: left;
+}
+
+
+.background-body-header {
+    font-family: Arvo, serif;
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/pexels-cottonbro-4761779.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    color: wheat;
+}
+
+.inner-head {
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    color: white !important;
+    letter-spacing: 1px;
+
+}
+@media only screen and (max-width: 767px) {
+    .background-body-header {
+        height: 700px;
+    }
+    .vrs2{
+        font-size:25px;
+    }
+        .body-heading {
+        font-weight: 600;
+        font-size: 34px;
+    }
+    .card-custom {
+        padding-top: 10px !important;
+    }
+    .head {
+        margin: 20px 2%;
+    }
+    .inner-head {
+        font-size: 14px;
+        line-height: 1.2em;
+        letter-spacing: 0px;
+    }
+}
+
+
+.m-t {
+    margin-top: 6px;
+}
+.m-t-s{
+    margin-top:50px;
+    padding:10px;
+}
+.head-ser
+{
+    margin:0 auto;
+    text-align:center;
+}
+#mySlider {
+    height: 400px;
+}
+
+#cr-img1 {
+    height: 400px;
+    background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/images/4.png) no-repeat center center;
+    background-size: cover;
+}
+
+#cr-img2 {
+    height: 400px;
+    background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/images/centre-for-sport-spin-class-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#cr-img3 {
+    height: 400px;
+    background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/images/compress-compress-istockphoto-996349204-2048x2048.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#cr-img4 {
+    height: 400px;
+    background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/images/compress-health-fitness.png) no-repeat center center;
+    background-size: cover;
+}
+
+#cr-img5 {
+    height: 400px;
+    background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/images/compress-hotel-workout-program.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#cr-img6 {
+    height: 400px;
+    background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(/images/compress-workbaner.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#cr-img7 {
+    height: 400px;
+    background: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/images/e096af05-45cf-45ce-8c0b-28a152bf8f2d.jpg) no-repeat center center;
+    background-size: cover;
+}
+@media (max-width: 980px){
+    .sec-services {
+        padding: 50px 0;
+    }
+}

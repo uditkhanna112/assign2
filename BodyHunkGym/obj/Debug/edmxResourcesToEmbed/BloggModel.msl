@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bodyhunksModelStoreContainer" CdmEntityContainer="bodyhunksEntities1">
+    <EntitySetMapping Name="Blogs">
+      <EntityTypeMapping TypeName="bodyhunksModel.Blog">
+        <MappingFragment StoreEntitySet="Blog">
+          <ScalarProperty Name="blog_id" ColumnName="blog_id" />
+          <ScalarProperty Name="blog_heading" ColumnName="blog_heading" />
+          <ScalarProperty Name="blog_text" ColumnName="blog_text" />
+          <ScalarProperty Name="blog_img" ColumnName="blog_img" />
+          <ScalarProperty Name="blog_owner" ColumnName="blog_owner" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

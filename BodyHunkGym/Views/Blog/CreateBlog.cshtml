@@ -1,0 +1,39 @@
+﻿@model BodyHunkGym.Blog
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/Content/Index.css" />
+    
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateBlog</title>
+</head>
+<body>
+        @Html.Partial("Header")
+            <div >
+                @using (Html.BeginForm("CreateBlogs", "Blog", FormMethod.Post,new { @class= " text-center" }))
+                {
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.blog_heading)
+                        @Html.TextBoxFor(model => model.blog_heading, new { @class = "form-control form-control-lg flex-fill", @placeholder = "Blog Heading" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.blog_text)
+                        @Html.TextBoxFor(model => model.blog_text, new { @class = "form-control form-control-lg", @placeholder = "Blog Text" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.blog_img)
+                        @Html.TextBoxFor(model => model.blog_img, new { @class = "form-control form-control-lg", @placeholder = "Blog Image" })
+                    </div>
+
+                    <div class="form-group">
+                          @Html.LabelFor(model => model.blog_owner)
+                        @Html.TextBoxFor(model => model.blog_owner, new { @class = "form-control form-control-lg", @placeholder = "Blog Owner" })
+                </div>
+                        <input type="submit" value="submit" />
+                        }
+                    </div>
+          
+</body>
+</html>
